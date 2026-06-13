@@ -128,7 +128,7 @@ This design allows both interfaces to share the same game logic, ensuring consis
 
 ## Computer Opponent
 
-The computer opponent uses an intelligent strategy:
+The computer opponent uses the following strategy:
 1. **Random Targeting** - Initial attacks are random
 2. **Hit Detection** - When the computer scores a hit, it remembers the location
 3. **Hunting Mode** - The computer then systematically checks adjacent squares to find and destroy the entire ship
